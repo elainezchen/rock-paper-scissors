@@ -4,6 +4,8 @@ import random
 
 print("Rock, Paper, Scissors, Shoot!")
 
+print("-------------------\nWelcome to my Rock-Paper-Scissors game...\n-------------------")
+
 # prompts user to input a RPS option
 x = input("Please input either 'Rock', 'Paper', or 'Scissors': ")
 
@@ -24,3 +26,15 @@ elif(x == "rock" and y == "paper"):
 elif(x == "rock" and y== "scissors"):
     msg = "You've won! Congrats!"
 elif(x == "paper" and y == "rock"):
+    msg == "You've won! Congrats!"
+elif(x == "paper" and y == "scissors"):
+    msg = "Oh, the computer won. It's ok."
+elif(x == "scissors" and y == "rock"):
+    msg = "Oh, the computer won. It's ok."
+else:
+    msg == "You've won! Congrats!"
+
+print("You chose: " + x)
+print("The computer chose: " + y)
+print("-------------------\n" + msg + "\n-------------------")
+print("Thanks for playing. Please play again!")
