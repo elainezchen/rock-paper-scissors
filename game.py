@@ -16,4 +16,11 @@ else:
 compchoice = ["rock", "paper", "scissors"]
 y = random.choice(compchoice)
 
-
+# combine and or statements
+if(x == y):
+    msg = "You have tied with the computer."
+elif(x == "rock" and y == "paper"):
+    msg = "Oh, the computer won. It's ok."
+elif(x == "rock" and y== "scissors"):
+    msg = "You've won! Congrats!"
+elif(x == "paper" and y == "rock"):
